@@ -1,0 +1,69 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3554543676760216544",
+      "lastPropertyId": "3:8674354125352033766",
+      "name": "Pedido",
+      "properties": [
+        {
+          "id": "1:6185221581030925619",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:510080738510506603",
+          "name": "productName",
+          "type": 9
+        },
+        {
+          "id": "3:8674354125352033766",
+          "name": "usuarioId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:1304548886940344708",
+          "relationTarget": "Usuario"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:3323843825132507276",
+      "lastPropertyId": "3:8727870425441747517",
+      "name": "Usuario",
+      "properties": [
+        {
+          "id": "1:564666341897437806",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8673899801466430143",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:8727870425441747517",
+          "name": "vip",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:3323843825132507276",
+  "lastIndexId": "1:1304548886940344708",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
